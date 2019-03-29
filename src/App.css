@@ -346,37 +346,16 @@ nav{
   font-weight: bold;
   color: var(--color-lightgreen);
 }
-
-
-/*  */
-
-
 /* INDEX PAGE */
 
 
 /* FOOTER */
 
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.vertical-center {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
 footer div{
     font-family: var(--main-font);
     width: 100%;
     height: 30vh;
-    background-color: black;
+    background-color: var(--color-darkblue);
     /* margin: 0 auto; */
     display: flex;
 }
@@ -386,7 +365,7 @@ footer div div{
     padding: 15vh;
     text-align: right;
     /* background-color: blue; */
-    color: grey;
+    color: white;
     font-size: 3vh;
     
 }

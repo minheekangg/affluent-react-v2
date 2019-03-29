@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 import "./App.css";
 import NavBar from './components/nav.js'
 import Welcome from './components/welcome.js'
+import Footer from './components/footer.js'
 
 class App extends Component {
   render() {
@@ -14,6 +15,7 @@ class App extends Component {
           <Route exact path="/" render={() => <Redirect to="/welcome" />} />
           <Route exact path="/welcome" component={Welcome} /> 
         </Switch>
+        <Footer/>
       </Fragment>
       </Router>
     );
