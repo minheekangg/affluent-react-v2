@@ -3,6 +3,11 @@ import { Grid, Image, Button } from "semantic-ui-react";
 
 import pupperImg from '../images/sickpupper.png'
 import graphImg from '../images/graph.png'
+import percentImg from "../images/percent.png"
+import dollarImg from "../images/dollar.png"
+import buildingImg from "../images/building.png"
+import robotImg from "../images/robot.png"
+import lockImg from "../images/lock.png"
 class Welcome extends React.Component{
 
     renderAboutPageStatic(){
@@ -53,89 +58,41 @@ class Welcome extends React.Component{
                     <h4>Emergency advances at a fraction of the cost</h4> <Button>Apply Now</Button>
                 </Grid.Column>
               </div>
-              
               </Grid.Row>
+
+            <Grid.Row id="aboutpage-3" >
+            <div id="aboutpage-3-container">
+                <Grid.Column style={{width: "20%"}}>
+                    <Image src={percentImg} />
+                    <h4>Low Rates</h4> <p> Machine-learning underwriting allows us to cap our maximum rate at [48]% APR.</p>
+                </Grid.Column>
+                <Grid.Column style={{width: "20%"}}>
+                    <Image src={dollarImg} />
+                    <h4>Quick Process</h4> <p>Funding is quick, and all funds go directly into your checking account.</p>
+                </Grid.Column>
+                <Grid.Column style={{width: "20%"}}>
+                    <Image src={buildingImg} />
+                    <h4>Transparency</h4> <p>We pride ourselves on providing clear and explicit terms and costs.</p>
+                </Grid.Column>
+                <Grid.Column style={{width: "20%"}}>
+                    <Image src={robotImg}/>
+                    <h4>Machine-Learning</h4> 
+                    <p>Our proprietary underwriting allows us to pick the best partners, and give the best rates.</p>
+                </Grid.Column>
+                <Grid.Column style={{width: "20%"}}>
+                    <Image src={lockImg} />
+                    <h4>Security</h4>
+                    <p>Client information confidentiality and confidence is our number one priority.</p>
+                </Grid.Column>
+            </div>
+            </Grid.Row>
 
             </Grid>
           </>
         );
     }
 
-    // renderRest (){
 
-
-    //         <div id="aboutpage-3">
-    //             <div className="row" id="about3_row1">
-    //                 <div className="col-md-12">
-    //                     <h5>Why Affluent?</h5>
-    //                 </div>
-    //             </div>
-    //             <div className="row" id="about3_row2">
-    //                 <div className="container">
-    //                     <div className="col-md-2 col-sm-6 col-xs-6">
-    //                         <img
-    //                             src="src/images/percent.png"
-    //                             alt="test"
-    //                             className="center"
-    //                         />
-    //                         <h4>Low Rates</h4>
-    //                         <p>
-    //                             Machine-learning underwriting allows us to cap our
-    //                             maximum rate at [48]% APR.
-    //                 </p>
-    //                     </div>
-    //                     <div className="col-md-2 col-sm-6 col-xs-6">
-    //                         <img
-    //                             src="src/images/dollar.png"
-    //                             alt="test"
-    //                             className="center"
-    //                         />
-    //                         <h4>Quick Process</h4>
-    //                         <p>
-    //                             Funding is quick, and all funds go directly into
-    //                             your checking account.
-    //                 </p>
-    //                     </div>
-    //                     <div className="col-md-2 col-sm-6 col-xs-6">
-    //                         <img
-    //                             src="src/images/building.png"
-    //                             alt="test"
-    //                             className="center"
-    //                         />
-    //                         <h4>Transparency</h4>
-    //                         <p>
-    //                             We pride ourselves on providing clear and explicit
-    //                             terms and costs.
-    //                 </p>
-    //                     </div>
-    //                     <div className="col-md-2 col-sm-6 col-xs-6">
-    //                         <img
-    //                             src="src/images/robot.png"
-    //                             alt="test"
-    //                             className="center"
-    //                         />
-    //                         <h4>Machine-Learning</h4>
-    //                         <p>
-    //                             Our proprietary underwriting allows us to pick the
-    //                             best partners, and give the best rates.
-    //                 </p>
-    //                     </div>
-    //                     <div className="col-md-2 col-sm-6 col-xs-6">
-    //                         <img
-    //                             src="src/images/lock.png"
-    //                             alt="test"
-    //                             className="center"
-    //                         />
-    //                         <h4>Security</h4>
-    //                         <p>
-    //                             Client information confidentiality and confidence
-    //                             is our number one priority.
-    //                 </p>
-    //                     </div>
-    //                 </div>
-    //             </div>
-    //         </div>
-    // }
     render(){
         return <div> {this.renderAboutPageStatic()}
 
