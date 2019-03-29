@@ -23,38 +23,32 @@ class Welcome extends React.Component{
                   </h6>
                 </Grid.Column>
               </Grid.Row>
+
+            <Grid.Row id="aboutpage-2">
+            <h5>The End of Predatory Finance</h5>
+                <div id="about-page-2-container">
+               <Grid.Column style={{width: "40%"}}>
+                    <div id="aboutpage-2-content">
+                    <h4>Moral Lending</h4>
+                    <div> No more triple-digit APR for emergency advances and financing. Everyone faces cash flow issues, and we are here to provide support without impossible commitments.</div>
+                </div>
+                </Grid.Column>
+                <Grid.Column style={{ width: "40%" }}>
+                <div id="aboutpage-2-content">
+                <h4>Fostering Stability</h4>
+                  <div> Your financial troubles are our problem to solve. We are here to put you on the path to financial freedom. We promise transparent terms, no hard credit checks, and support to enhance your financial well-being </div>
+                </div>
+                  
+                </Grid.Column>
+                </div>
+              </Grid.Row> 
+
             </Grid>
           </>
         );
     }
 
     // renderRest (){
-        
-    //     <div id="aboutpage-2">
-    //         <h5>The End of Predatory Finance</h5>
-    //         <div id="aboutpage-2-content">
-    //             <div className="col-sm-12 col-xs-12">
-    //                 <h4>Moral Lending</h4>
-
-    //                 <p>
-    //                     No more triple-digit APR for emergency advances and
-    //                     financing. Everyone faces cash flow issues, and we
-    //                     are here to provide support without impossible
-    //                     commitments.
-    //               </p>
-    //             </div>
-    //             <div className="col-sm-12 col-xs-12">
-    //                 <h4>Fostering Stability</h4>
-    //                 <p>
-    //                     Your financial troubles are our problem to solve. We
-    //                     are here to put you on the path to financial
-    //                     freedom. We promise transparent terms, no hard
-    //                     credit checks, and support to enhance your financial
-    //                     well-being.
-    //               </p>
-    //             </div>
-    //         </div>
-    //     </div>
 
     //         <div id="aboutpage-1"style={{
     //                 backgroundColor: "var(--color-grey-background)" }} >

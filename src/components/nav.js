@@ -11,7 +11,7 @@ class Nav extends React.Component{
     }
 
     handleScroll(event){
-        console.log(event)
+        // console.log(event)
     }
 
     renderNavBar(){
