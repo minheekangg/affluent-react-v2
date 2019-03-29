@@ -1,6 +1,9 @@
 import React from 'react';
 import { Grid, Image, Button } from "semantic-ui-react";
 
+
+import Steps from './steps.js'
+
 import pupperImg from '../images/sickpupper.png'
 import graphImg from '../images/graph.png'
 import percentImg from "../images/percent.png"
@@ -9,7 +12,7 @@ import buildingImg from "../images/building.png"
 import robotImg from "../images/robot.png"
 import lockImg from "../images/lock.png"
 class Welcome extends React.Component{
-
+    
     renderAboutPageStatic(){
         return (
           <>
@@ -93,63 +96,19 @@ class Welcome extends React.Component{
     }
 
 
+
+
     render(){
         return <div> {this.renderAboutPageStatic()}
 
             <div id="aboutpage-4">
-                <div className="row" id="about4_row1">
-                    <div className="col-md-12">
-                        <h5>How it works</h5></div>
-                </div>
-                <div className="row" style={{display: "flex"}}>
-                    <div className="col-md-8 col-md-offset-2" style={{display: "flex"}}>
-                        <div className="steps">
-                            <div className="feature-icon">
-                                <div className="icon" id={1} >
-                                <div>1</div>
-                            </div>
-                        </div>
-                        <div className="step-content">
-                            <h4>Fill out an application</h4>
-                            <p>Let us know who you are. We only need some of your employment and financial information to make a decision.</p>
-                        </div>
-                    </div>
-                    <div className="steps">
-                        <div className="feature-icon">
-                            <div className="icon" id={2}>
-                                <div>2</div>
-                        </div>
-                    </div>
-                    <div className="step-content">
-                        <h4>Screen your application</h4>
-                        <p>Our machine-learning algorithms will scan your application and decide whether you qualify or not.</p>
+                <h5>How it works</h5>
+                <Steps />
+                <span>Give us a try and check your rate. No credit score checks. <br/> No commitments until you accept the loan terms.</span>
+                <button id="start-here-button">Apply Now</button>
                     </div>
                 </div>
-                <div className="steps">
-                    <div className="feature-icon">
-                        <div className="icon" id={3}>
-                                <div>3</div>
-                    </div>
-                </div>
-                <div className="step-content">
-                    <h4>Directly into your account</h4>
-                    <p>If you are approved, we will directly fund your checking account. Funds should be accessible in 24 hours.</p>
-                </div>
-            </div>
-        </div>
-        </div>
-    </div >
 
-            <div id="start-here">
-                <div>
-                    <h3>Start Here</h3>
-                    <span>Give us a try and check your rate. No credit score checks.
-            No commitments until you accept the loan terms.</span>
-                    <br/>
-                        <button className="start-here-button">Apply Now</button>
-        </div>
-                </div>
-</div>
     }
 }
 
