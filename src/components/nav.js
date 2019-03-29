@@ -11,25 +11,34 @@ class Nav extends React.Component{
     }
     
     handleScroll = (event) => {
-        const mainbottom = document.querySelector("#aboutpage-1").offsetHeight;
-        const stop = event.target.scrollingElement.scrollTop
-        const navbar1 = document.querySelector('#nav1')
-        const navbar2 = document.querySelector('#nav2')
-        
-        if (navbar1 && (stop < mainbottom)){
-            navbar1.classList.add("sticky");
-            navbar1.classList.remove("hidden");
-            navbar2.classList.add("hidden");
-        } else if (navbar1 && (stop > mainbottom)){
-            navbar1.classList.add("hidden");
-            navbar2.classList.remove("hidden");
-            navbar2.classList.add("sticky");
-        }
+      const navbar1 = document.querySelector("#nav1");
+      if (navbar1){
+        this.renderWelcomePage(event)
+      } 
+      
+    }
+    
+    renderWelcomePage(event){
+      const mainbottom = document.querySelector("#aboutpage-1").offsetHeight;
+      const stop = event.target.scrollingElement.scrollTop;
+      const navbar2 = document.querySelector("#nav2");
+      const navbar1 = document.querySelector("#nav1");
+      
+
+      if (stop < mainbottom){
+        navbar1.classList.add("sticky");
+        navbar1.classList.remove("hidden");
+        navbar2.classList.add("hidden");
+      } else {
+        navbar1.classList.add("hidden");
+        navbar2.classList.remove("hidden");
+        navbar2.classList.add("sticky");
+      }
+
     }
 
   
-    
-
+  
     renderNav1 (){
         return <><nav id="nav1" className="sticky" style={{"fontSize": "50px"}}>
             <div className="index-nav">
@@ -58,11 +67,7 @@ class Nav extends React.Component{
 
     renderNav2(){
        return (
-         <nav
-           id="nav2"
-           className="sticky"
-           style={{ "background-color": "white" }}
-         >
+         <nav id="nav2" className="sticky" style={{ "background-color": "white" }}>
            <div className="nav-wrapper">
              <Link
                to="/"

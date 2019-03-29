@@ -385,12 +385,12 @@ footer div div{
 }
 /* FOOTER */
 
-
+/*  */
 /* ABOUT PAGE */
 #about-top{
     width: 100%;
     background-color: var(--color-lightgreen);
-    height: 35vh;
+    height: 50vh;
     vertical-align: middle;
     justify-content: center;
     text-align: center;
@@ -398,6 +398,14 @@ footer div div{
     font-size: 4vh;
 }
 
+#about-top div{
+   width: 80%;
+    margin: 0 auto;
+    overflow: auto;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    min-height: 700px;
+}
 
 #about-top h2{
     padding: 7% 10% 5% 10%;
