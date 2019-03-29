@@ -13,7 +13,7 @@ class Steps extends React.Component{
             if (this.state.step === 3) {
                 this.setState({ step: 1 })
             } else {
-                this.setState({ step: this.state.step+=1 })
+                this.setState({ step: this.state.step+1 })
             }
           ;
         }, 3000);
