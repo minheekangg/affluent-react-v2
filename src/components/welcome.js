@@ -1,7 +1,8 @@
 import React from 'react';
-import { Grid, Image } from "semantic-ui-react";
+import { Grid, Image, Button } from "semantic-ui-react";
 
 import pupperImg from '../images/sickpupper.png'
+import graphImg from '../images/graph.png'
 class Welcome extends React.Component{
 
     renderAboutPageStatic(){
@@ -43,6 +44,18 @@ class Welcome extends React.Component{
                 </div>
               </Grid.Row> 
 
+              <Grid.Row id="aboutpage-graph" >
+              <div id="aboutpage-1">
+               <Grid.Column style={{width: "80%"}}>
+                    <Image src={graphImg} alt="graph" style={{width: "100%"}} />
+                </Grid.Column>
+                <Grid.Column className="graph-emergency">
+                    <h4>Emergency advances at a fraction of the cost</h4> <Button>Apply Now</Button>
+                </Grid.Column>
+              </div>
+              
+              </Grid.Row>
+
             </Grid>
           </>
         );
@@ -50,23 +63,6 @@ class Welcome extends React.Component{
 
     // renderRest (){
 
-    //         <div id="aboutpage-1"style={{
-    //                 backgroundColor: "var(--color-grey-background)" }} >
-    //             <div className="col-md-7">
-    //                 <img
-    //                     style={{ width: "85%" }}
-    //                     align="right"
-    //                     src="src/images/graph.png"
-    //                     alt="graph"
-    //                 />
-    //             </div>
-    //             <div className="col-md-4">
-    //                 <div className="graph-emergency">
-    //                     <h4>Emergency advances at a fraction of the cost</h4>
-    //                     <button>Apply Now</button>
-    //                 </div>
-    //             </div>
-    //         </div>
 
     //         <div id="aboutpage-3">
     //             <div className="row" id="about3_row1">

@@ -8,6 +8,9 @@
 }
 
 
+.row{
+  margin: 0px;
+}
 
 /* NAVBAR */
 nav{
@@ -69,7 +72,7 @@ nav{
     overflow: auto;
     padding-top: 5%;
     padding-bottom: 8%;
-    /* min-height: 700px */
+    min-height: 700px;
     /* display: table; */
 }       
 
@@ -168,6 +171,52 @@ nav{
 }
 
 
+/* GRAPH SECTION */
+#aboutpage-graph{
+  background-color: var(--color-grey-background); display: table;
+  height: 50vh;
+}
+#aboutpage-graph img{
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 8%;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.graph-emergency{
+  text-align: center;
+    justify-content: center;
+    display: table-cell;
+}
+.graph-emergency h4{
+    top: 0;
+    font-size: 6vh;
+    text-align: center;
+    padding-top: 20%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 10%;
+   justify-content: center;
+}
+
+.graph-emergency button{
+    background-color: var(--color-lightgreen);
+    font-size: 30px;
+    font-weight: bold;
+    padding: 4%;
+    color: white;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10%;
+    
+}
+/* GRAPH SECTION */
+
+
+/*  */
+
 #aboutpage-3 div div div{
     /* animation-name: about3_div; */
     /* animation-duration: 3s; */
@@ -223,34 +272,7 @@ nav{
     padding-bottom: 5%;
 }
 
-/* GRAPH SECTION */
-.graph-emergency{
-    justify-content: center;
-    text-align: center;
-}
-.graph-emergency h4{
-    top: 0;
-    font-size: 6vh;
-    text-align: center;
-    margin-top: 20%;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-bottom: 10%;
-   justify-content: center;
-}
 
-.graph-emergency button{
-    background-color: var(--color-lightgreen);
-    font-size:2vh;
-    padding: 5%;
-    color: white;
-    width: 50%;
-    justify-content: center;
-    text-align: center;
-    margin-bottom: 15%;
-    
-}
-/* GRAPH SECTION */
 
 
 #aboutpage-4{
