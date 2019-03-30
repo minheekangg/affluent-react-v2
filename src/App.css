@@ -541,6 +541,20 @@ footer div div{
 
 /* ABOUT PAGE */
 
+/* CONTACT PAGE */
+ #contact{
+   /* background-color: blue; */
+   width: 100%;
+   /* margin: 0 auto; */
+   height: 100%;
+   padding: 3% 10% 5%;
+   font-size: 30px;
+ }
+ #contact h2{
+   font-weight: bold;
+ }
+/* CONTACT PAGE */
+
 @media only screen and (max-width: 1000px){
     #aboutpage-1-content{
         left: 40%;
