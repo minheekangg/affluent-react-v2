@@ -423,12 +423,7 @@ footer div div{
     border-bottom-color: #C6E9F8;
 
 }
-/* #right-text-left-picture{
-    background-color: #FCF9F9;
-    width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-} */
+
 #left-text-right-picture span{
     width: 50%;
     /* height: 100%; */
@@ -457,6 +452,90 @@ footer div div{
     bottom: 0;
     width: 100%;
     /* padding: 5vh; */
+}
+
+#aboutpage-2 h4{
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    padding: 5% 0% 4% 3%;
+    font-size: 6vh;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+#ethical-table{
+  width: 60%;
+  margin: 0 auto;
+  color: white;
+  display: flex;
+}
+
+#ethical-table div{
+  width: 50%;
+  height: 400px;
+  /* background-color: yellow; */
+  padding: 5%;
+  font-size: 20px;
+  text-align: left;
+}
+#ethical-table > :first-child{
+  border-right: 1px solid var(--color-lightgreen);
+}
+
+#ethical-table div h3{
+  font-weight: bold
+}
+
+.line{
+  margin: 0 auto;
+  height:2px;
+  width: 60%;
+  background: repeating-linear-gradient(to right,var(--color-lightgreen) 0,var(--color-lightgreen) 5px)
+}
+
+#team-div{
+    padding-top: 5%;
+    padding-bottom: 8%;
+    background-color: var(--color-lightgrey);
+    width: 100%;
+    justify-content: center;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 30px;
+    height: 55vh;
+}
+
+.line2{
+  margin: 0 auto;
+  height: 1px;
+  width: 300px;
+  background: repeating-linear-gradient(to right,grey 0,grey 5px)
+}
+
+#team-box{
+  background-color: white;
+  padding: 20px;
+  border: 1px grey solid;
+  width: 50vh;
+  margin: 0 auto;
+}
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
 }
 
 
