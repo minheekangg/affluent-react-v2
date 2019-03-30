@@ -42,7 +42,11 @@ class About extends React.Component{
                     <br/>
                     <div className="line2"></div>
                 </div>
-        
+          
+            <div id="aboutpage-4" style={{backgroundColor: "white", paddingTop: "8%"}}>
+              <span>Give us a try and check your rate. No credit score checks. <br /> No commitments until you accept the loan terms.</span>
+              <button id="start-here-button">Apply Now</button>
+          </div>
 
 
           </>
