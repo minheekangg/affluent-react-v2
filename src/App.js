@@ -1,5 +1,5 @@
 import React, { Component, Fragment } from "react";
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 import NavBar from './components/nav.js'
@@ -14,8 +14,7 @@ class App extends Component {
       <Fragment>
         <NavBar />
         <Switch>
-          <Route exact path="/" render={() => <Redirect to="/welcome" />} />
-          <Route exact path="/welcome" component={Welcome} /> 
+          <Route exact path="/" component={Welcome} /> 
           <Route exact path="/about" component={About} /> 
         </Switch>
         <Footer/>
