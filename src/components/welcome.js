@@ -34,17 +34,17 @@ class Welcome extends React.Component{
               </Grid.Row>
 
             <Grid.Row id="aboutpage-2">
-            <h5>The End of Predatory Finance</h5>
+            <h2>The End of Predatory Finance</h2>
                 <div id="about-page-2-container">
                <Grid.Column style={{width: "40%"}}>
                     <div id="aboutpage-2-content">
-                    <h4>Moral Lending</h4>
+                    <h6>Moral Lending</h6>
                     <div> No more triple-digit APR for emergency advances and financing. Everyone faces cash flow issues, and we are here to provide support without impossible commitments.</div>
                 </div>
                 </Grid.Column>
                 <Grid.Column style={{ width: "40%" }}>
                 <div id="aboutpage-2-content">
-                <h4>Fostering Stability</h4>
+                <h6>Fostering Stability</h6>
                   <div> Your financial troubles are our problem to solve. We are here to put you on the path to financial freedom. We promise transparent terms, no hard credit checks, and support to enhance your financial well-being </div>
                 </div>
                   
