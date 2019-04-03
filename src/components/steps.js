@@ -11,7 +11,6 @@ class Steps extends React.Component{
     state = {
         step: 1
     }
-
         // < div className = "feature-icon" >
         //     <div className="icon" >
         //         {this.state.step === 1 ? <div style={{ backgroundColor: 'var(--color-darkblue)', color: "white" }}>1</div> : <div>1</div>}

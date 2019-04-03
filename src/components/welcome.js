@@ -54,7 +54,7 @@ class Welcome extends React.Component{
 
               <Grid.Row id="aboutpage-graph" >
               <div id="aboutpage-1">
-               <Grid.Column style={{width: "80%"}}>
+               <Grid.Column >
                     <Image src={graphImg} alt="graph" style={{width: "100%"}} />
                 </Grid.Column>
                 <Grid.Column className="graph-emergency">

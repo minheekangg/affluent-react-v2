@@ -20,9 +20,7 @@ class Nav extends React.Component {
     }
   }
 
-   componentWillUnmount() {
-    this.setState({renderSecondNav: true})
-  }
+
 
 
 
