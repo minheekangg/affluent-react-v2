@@ -66,26 +66,44 @@ class Welcome extends React.Component{
             <Grid.Row id="aboutpage-3" >
             <div id="aboutpage-3-container">
                 <Grid.Column style={{width: "20%"}}>
+                    <div>
                     <Image src={percentImg} />
+                    </div>
+                    <div id="aboutpage-3-text">
                     <h4>Low Rates</h4> <p> Machine-learning underwriting allows us to cap our maximum rate at [48]% APR.</p>
+                    </div>
                 </Grid.Column>
                 <Grid.Column style={{width: "20%"}}>
+                <div>
                     <Image src={dollarImg} />
+                </div>
+                <div id="aboutpage-3-text">
                     <h4>Quick Process</h4> <p>Funding is quick, and all funds go directly into your checking account.</p>
+                </div>
                 </Grid.Column>
                 <Grid.Column style={{width: "20%"}}>
-                    <Image src={buildingImg} />
+                  <div>
+                      <Image src={buildingImg} />
+                  </div>
+                  <div id="aboutpage-3-text">
                     <h4>Transparency</h4> <p>We pride ourselves on providing clear and explicit terms and costs.</p>
+                  </div>
                 </Grid.Column>
                 <Grid.Column style={{width: "20%"}}>
+                <div>
                     <Image src={robotImg}/>
-                    <h4>Machine-Learning</h4> 
-                    <p>Our proprietary underwriting allows us to pick the best partners, and give the best rates.</p>
+                </div>
+                <div id="aboutpage-3-text">
+                    <h4>Machine-Learning</h4><p>Our proprietary underwriting allows us to pick the best partners, and give the best rates.</p>
+                </div>
                 </Grid.Column>
                 <Grid.Column style={{width: "20%"}}>
-                    <Image src={lockImg} />
-                    <h4>Security</h4>
-                    <p>Client information confidentiality and confidence is our number one priority.</p>
+                <div>
+                    <Image src={lockImg}/>
+                </div>
+                <div id="aboutpage-3-text">
+                      <h4>Security</h4><p>Client information confidentiality and confidence is our number one priority.</p>
+                </div>
                 </Grid.Column>
             </div>
             </Grid.Row>

@@ -14,9 +14,7 @@ class Nav extends React.Component {
         })
       });
     } else {
-      this.setState({ renderSecondNav: true }, () => {
-        console.log(this.state)
-      })
+      this.setState({ renderSecondNav: true })
     }
   }
 
@@ -25,7 +23,7 @@ class Nav extends React.Component {
 
 
   handleClick = (event) =>{
-    console.log(event.target.pathname, this.state)
+    // console.log(event.target.pathname, this.state)
       return event.target.pathname === '/' ? this.setState({ renderSecondNav: false }, ()=>{
       window.addEventListener("scroll", e => this.renderWelcomePage(e));
     }) : this.setState({ renderSecondNav: true })
@@ -35,17 +33,17 @@ class Nav extends React.Component {
     if (window.location.pathname === '/') {
       const mainbottom = document.querySelector("#aboutpage-1").offsetHeight;
       const stop = event.target.scrollingElement.scrollTop;
-      console.log(stop)
+      // console.log(stop)
       // const navbar2 = document.querySelector("#nav2");
       // const navbar1 = document.querySelector("#nav1");
   
       if (stop < mainbottom) {
         this.setState({ renderSecondNav: false }, () => {
-          console.log('FIRST NAV')
+          // console.log('FIRST NAV')
         })
       } else if (stop > mainbottom) {
         this.setState({ renderSecondNav: true }, ()=>{
-          console.log('SECOND NAV')
+          // console.log('SECOND NAV')
         })
       }
     }

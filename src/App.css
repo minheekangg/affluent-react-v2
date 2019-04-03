@@ -205,9 +205,9 @@ nav{
 }
 .graph-emergency h4{
     top: 0;
-    font-size: 50px;
+    font-size: 60px;
     text-align: center;
-    padding-top: 20%;
+    padding-top: 30%;
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 10%;
@@ -675,6 +675,9 @@ footer div div{
     padding-top: 0;
     padding-bottom: 0;
   }
+  /* #about-page-2-content{
+    width: 40%;
+  } */
 
   #aboutpage-2-content h6{
     font-size: 20px;
@@ -692,13 +695,64 @@ footer div div{
     font-size: 12px;
   }
   #aboutpage-3-container{
-    flex-direction: column
+    flex-direction: column;
   }
+
   #aboutpage-3-container img{
     width: 100%;
     display: flex;
   }
   
+  #aboutpage-3-container div{
+    width: 80% !important;
+    display: flex;
+    align-content: left;
+    margin-left: 8%;
+  }
+  #aboutpage-3-container div img{
+    width: 15vh;
+    height: 15vh;
+    padding: 3%;
+  }
+  #aboutpage-3-text{
+    display: inline-block !important;
+    margin-left: -5% !important;
+    width: 150%;
+    text-align: left;
+  }
+  #aboutpage-3-container div div h4{
+    padding-top: 0;
+    font-size: 25px
+  }
 
+  .step-content h4{
+    font-size: 20px;
+  }
+  .step-content p{
+    font-size: 15px;
+    /* background-color: red; */
+  }
+  #aboutpage-4 h5{
+    font-size: 30px;
+  }
+  #left-text-right-picture h3, #right-text-left-picture h3{
+    font-size: 40px;
+  }
+  #about-top div{
+    font-size: 18px;
+  }
+  #about-top h2{
+    font-size: 26px;
+  }
+  #aboutpage-2 h4{
+    font-size: 26px;
+  }
+  #ethical-table div h3{
+    font-size: 20px;
+
+  }
+  #team-div h1{
+    font-size: 30px;
+  }
 }
 
