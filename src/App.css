@@ -570,21 +570,6 @@ footer div div{
  }
 /* CONTACT PAGE */
 
-@media only screen and (max-width: 1000px){
-    #aboutpage-1-content{
-        left: 40%;
-        animation-name: intro;
-        animation-duration: 2s;
-        /* text-align: center; */
-        /* align-content: center; */
-        /* margin: 0 auto; */
-    }
-    @keyframes intro {
-        0%   { left:0px; }
-        100% { left:40%; }
-    }       
-}
-
 /* IPAD PRO */
 @media only screen and (max-width: 1400px){
     #aboutpage-graph img{
