@@ -21,6 +21,7 @@ nav{
     z-index: 2;
     color: black;
     /* height: 65px;  */
+    background-color: white !important;
 }
 
 .hidden{
@@ -86,7 +87,6 @@ nav{
     overflow: auto;
     padding-top: 5%;
     padding-bottom: 8%;
-    min-height: 700px;
     /* display: table; */
 }       
 
@@ -235,7 +235,6 @@ nav{
     overflow: auto;
     padding-top: 10%;
     padding-bottom: 8%;
-    min-height: 700px;
 }
 
 #aboutpage-3-container{
@@ -482,7 +481,7 @@ footer div div{
     vertical-align: middle;
     text-align: center;
     font-size: 30px;
-    height: 55vh;
+    /* height: 55vh; */
 }
 
 .line2{
@@ -600,14 +599,19 @@ footer div div{
       padding-top: 40%;
     }
 }
-@media only screen and (max-width: 1024px){
+@media only screen and (max-width: 1025px){
     #aboutpage-1 img{
-      width: 100%;
+      margin-top: 0;
+      padding: 0
     }
     .graph-emergency h4{
-      font-size: 40px;
+      font-size: 35px;
+      padding-top: 80%;
     }
 
+    .index-nav a{
+      font-size: 15px;
+    }
     #nav-mobile li a{
       font-size: 15px;
     }
@@ -624,5 +628,77 @@ footer div div{
       margin-top: 25%;
       padding: 10%;
     }
+    #aboutpage-1 h1{
+      padding-bottom: 0
+    }
+    #aboutpage-2 h2{
+      font-size: 45px
+    }
+    #aboutpage-2-content h6{
+      font-size: 30px
+    }
+    #left-text-right-picture{
+      height: 50vh;
+    }
+    #about-top h2{
+      font-size: 30px
+    }
+    #about-top div{
+      font-size: 25px;
+    }
+    #ethical-table div{
+      font-size: 15px;
+      height: 350px;
+    }
     
 }
+
+/* IPHONE VERTICAL */
+@media only screen and (max-width: 850px){
+  #aboutpage-1-content{
+    left: 0;
+  }
+  #aboutpage-1-content h1{
+    font-size: 60px;
+  }
+  #aboutpage-1 span{
+    font-size: 20px;
+  }
+  #aboutpage-2 h2{
+    font-size: 30px;
+  }
+  #aboutpage-1{
+    padding-top: 0;
+    padding-bottom: 8%;
+  }
+  #aboutpage-1 img{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  #aboutpage-2-content h6{
+    font-size: 20px;
+  }
+  #aboutpage-2-content div{
+    font-size: 12px;
+  }
+  #aboutpage-graph{
+    height: 0;
+  }
+  .graph-emergency h4{
+    padding-top: 30%;
+  }
+  .graph-emergency button{
+    font-size: 12px;
+  }
+  #aboutpage-3-container{
+    flex-direction: column
+  }
+  #aboutpage-3-container img{
+    width: 100%;
+    display: flex;
+  }
+  
+
+}
+
