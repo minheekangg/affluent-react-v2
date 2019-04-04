@@ -25,7 +25,7 @@ class Steps extends React.Component{
                 this.setState({ step: this.state.step+1 })
             }
           ;
-        }, 3000);
+        }, 1000);
 
 
         return (<div id="step-container">

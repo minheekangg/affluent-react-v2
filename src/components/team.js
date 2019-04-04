@@ -16,7 +16,7 @@ class Team extends React.Component {
               this.setState({ currentJobIdx: 0})
           }
           ;
-      }, 3000);
+      }, 500);
 
     return (
       <div id="team-box">
