@@ -2,7 +2,9 @@
   "name": "affluent-react2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://minheekangg.github.io/affluent-react-v2/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "material-design-icons": "^3.0.1",
     "materialize-css": "^1.0.0-rc.2",
     "react": "^16.8.6",
@@ -15,6 +17,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
