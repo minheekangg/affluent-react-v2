@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/minheekangg/affluent-react-v2/precache-manifest.04b61b90eabebbc79ee611a5c3ae66ca.js"
+  "/affluent-react-v2/precache-manifest.6cbfbf2a275b11827e0984534af85726.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/minheekangg/affluent-react-v2/index.html", {
+workbox.routing.registerNavigationRoute("/affluent-react-v2/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
