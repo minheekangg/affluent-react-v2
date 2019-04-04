@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "74dc15f2a8bdd82c366c",
+    "revision": "37fda0ac9b7faaec0dde",
     "url": "/minheekangg/affluent-react-v2/static/css/main.0e3d435c.chunk.css"
   },
   {
-    "revision": "74dc15f2a8bdd82c366c",
-    "url": "/minheekangg/affluent-react-v2/static/js/main.d80aedea.chunk.js"
+    "revision": "37fda0ac9b7faaec0dde",
+    "url": "/minheekangg/affluent-react-v2/static/js/main.2ec7e11f.chunk.js"
   },
   {
     "revision": "725bf9054d4f5bdfcfef",
     "url": "/minheekangg/affluent-react-v2/static/js/runtime~main.f55448dd.js"
   },
   {
-    "revision": "e9ea7ae323e7a8234383",
+    "revision": "69650af097148adabaee",
     "url": "/minheekangg/affluent-react-v2/static/css/2.0450462f.chunk.css"
   },
   {
-    "revision": "e9ea7ae323e7a8234383",
-    "url": "/minheekangg/affluent-react-v2/static/js/2.b13d4c17.chunk.js"
+    "revision": "69650af097148adabaee",
+    "url": "/minheekangg/affluent-react-v2/static/js/2.2d328e47.chunk.js"
   },
   {
     "revision": "18aa054e0adf08f16dd647c58421e07d",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/minheekangg/affluent-react-v2/static/media/shark.f98ceefc.png"
   },
   {
-    "revision": "cbfc9a6079bd16032867d8dbf48b4146",
+    "revision": "398bd401f3923fbb35acdebe338f7a2c",
     "url": "/minheekangg/affluent-react-v2/index.html"
   }
 ];
