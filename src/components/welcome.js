@@ -101,7 +101,7 @@ class Welcome extends React.Component{
                 <div>
                     <Image src={lockImg}/>
                 </div>
-                <div id="aboutpage-3-text">
+                    <div id="aboutpage-3-text">
                       <h4>Security</h4><p>Client information confidentiality and confidence is our number one priority.</p>
                 </div>
                 </Grid.Column>

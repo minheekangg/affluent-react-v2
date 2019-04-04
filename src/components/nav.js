@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+// import MenuIcon from "@material-ui/icons/Menu";
+import M from "materialize-css";  
+import "materialize-css/dist/css/materialize.min.css";
 import { Link } from "react-router-dom";
 
 class Nav extends React.Component {
@@ -17,9 +20,12 @@ class Nav extends React.Component {
       this.setState({ renderSecondNav: true })
     }
   }
-
-
-
+  
+  
+  handleOpenNav = ()=>{
+    let elems = document.querySelectorAll('.dropdown-content');
+    return M.Dropdown.init(elems, { inDuration: 300, outDuration: 225 });
+  }
 
 
   handleClick = (event) =>{
@@ -66,20 +72,14 @@ class Nav extends React.Component {
   }
 
   renderNav2() {
-    return (
+    return <>
       <nav
         id="nav2"
         className="sticky"
         style={{ backgroundColor: "white" }}
       >
         <div className="nav-wrapper">
-          <Link
-            onClick={this.handleClick}
-            to="/"
-            className="brand-logo"
-            style={{ color: "var(--color-lightgreen)", fontSize: "55px" }}
-          >
-            affluent
+          <Link onClick={this.handleClick} to="/" className="brand-logo" style={{ color: "var(--color-lightgreen)", fontSize: "55px" }}>affluent
           </Link>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
@@ -113,7 +113,12 @@ class Nav extends React.Component {
           </ul>
         </div>
       </nav>
-    );
+      <ul id="dropdown1" className="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li><a href="#!">two</a></li>
+        <li><a href="#!">three</a></li>
+      </ul>
+      </>
   }
 
   render() {
