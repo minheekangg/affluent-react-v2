@@ -58,7 +58,7 @@ class Nav extends React.Component {
   renderNav1() {
     return (
       <>
-        <nav id="nav1" className="sticky" style={{ fontSize: "50px" }}>
+        <nav id="nav1" className="sticky" style={{ fontSize: "33px" }}>
           <div className="index-nav">
             <Link onClick={this.handleClick} to="/apply">Apply Now</Link>
             <Link onClick={this.handleClick} to="/about">About Us</Link>
@@ -79,7 +79,7 @@ class Nav extends React.Component {
         style={{ backgroundColor: "white" }}
       >
         <div className="nav-wrapper">
-          <Link onClick={this.handleClick} to="/" className="brand-logo" style={{ color: "var(--color-lightgreen)", fontSize: "55px" }}>affluent
+          <Link onClick={this.handleClick} to="/" className="brand-logo" style={{ color: "var(--color-lightgreen)", fontSize: "33px" }}>affluent
           </Link>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
@@ -102,7 +102,7 @@ class Nav extends React.Component {
               <Link onClick={this.handleClick} to="/apply"
                 id="apply-button"
                 style={{
-                  fontSize: "16px",
+                  fontSize: "15px",
                   lineHeight: "3.5",
                   color: "white"
                 }}
