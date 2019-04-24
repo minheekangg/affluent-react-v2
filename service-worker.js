@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/affluent-react-v2/precache-manifest.96e895b34a4bb5de8976692c08afc1c6.js"
+  "/affluent-react-v2/precache-manifest.06f39224b03d881f040992caa9b46cd1.js"
 );
 
 workbox.clientsClaim();
