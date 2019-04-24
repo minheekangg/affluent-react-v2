@@ -111,7 +111,7 @@ nav{
 
 #aboutpage-1 h1{
   font-family: var(--main-font);
-    font-size: 100px;
+    font-size: 80px;
     color: var(--color-lightgreen);
     padding-bottom: 3vh;
 }
@@ -376,9 +376,10 @@ footer div div{
   /* height: 50vh; */
   vertical-align: middle;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   color: white;
-  font-size: 35px;
+  font-size: 25px;
+  padding: 5%;
 }
 
 #about-top div{
@@ -466,7 +467,8 @@ footer div div{
 }
 
 #ethical-table div h3{
-  font-weight: bold
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .line{
@@ -568,7 +570,7 @@ footer div div{
 
  #form-submit{
    background-color: var(--color-darkblue);
-   font-size: 25px;
+   font-size: 15px;
    color: white;
   padding: 2%;
  }

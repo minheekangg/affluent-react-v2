@@ -11,12 +11,6 @@ class Steps extends React.Component{
     state = {
         step: 1
     }
-        // < div className = "feature-icon" >
-        //     <div className="icon" >
-        //         {this.state.step === 1 ? <div style={{ backgroundColor: 'var(--color-darkblue)', color: "white" }}>1</div> : <div>1</div>}
-        //     </div>
-        //         </div>
-
     render(){
         setTimeout(() => {
             if (this.state.step === 3) {
@@ -25,7 +19,7 @@ class Steps extends React.Component{
                 this.setState({ step: this.state.step+1 })
             }
           ;
-        }, 1000);
+        }, 2000);
 
 
         return (<div id="step-container">
