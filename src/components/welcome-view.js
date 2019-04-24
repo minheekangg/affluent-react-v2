@@ -5,16 +5,14 @@ export default class WelcomeView extends React.Component{
     state = {renderSecondNav: false }
     componentDidMount() {
         window.addEventListener('scroll', (e) => {
-            const mainbottom = 728;
-            console.log(mainbottom)
+            const mainbottom = 728
+            // const mainbottom = document.querySelector("#aboutpage-1").offsetHeight;
             const stop = e.target.scrollingElement.scrollTop;
                 if (stop < mainbottom) {
                     this.setState({ renderSecondNav: false }, () => {
-                        // console.log('FIRST NAV')
                     })
                 } else if (stop > mainbottom) {
                     this.setState({ renderSecondNav: true }, () => {
-                        // console.log('SECOND NAV')
                     })
                 }
         })
@@ -29,27 +27,27 @@ export default class WelcomeView extends React.Component{
         style={{ backgroundColor: "white" }}
       >
         <div className="nav-wrapper">
-          <Link to="/" className="brand-logo" style={{ color: "var(--color-lightgreen)", fontSize: "33px" }}>affluent
+          <Link onClick={this.handleClick} to="/" className="brand-logo" style={{ color: "var(--color-lightgreen)", fontSize: "33px" }}>affluent
           </Link>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
             <li>
-              <Link to="/about">
+              <Link onClick={this.handleClick} to="/about">
                 About Us
               </Link>
             </li>
             <li>
-              <Link to="/contact">
+              <Link onClick={this.handleClick} to="/contact">
                 Contact Us
               </Link>
             </li>
             <li>
-              <Link to="/faq">Questions</Link>
+              <Link onClick={this.handleClick} to="/faq">Questions</Link>
             </li>
             <li>
-              <Link to="/login">Login In</Link>
+              <Link onClick={this.handleClick} to="/login">Login In</Link>
             </li>
             <li>
-              <Link to="/apply"
+              <Link onClick={this.handleClick} to="/apply"
                 id="apply-button"
                 style={{
                   fontSize: "15px",
@@ -76,11 +74,11 @@ export default class WelcomeView extends React.Component{
        return (
             <nav id="nav1" className="sticky" style={{ fontSize: "33px" }}>
                 <div className="index-nav">
-                    <Link to="/apply">Apply Now</Link>
-                    <Link to="/about">About Us</Link>
-                    <Link to="/contact">Contact Us</Link>
-                    <Link to="/faq">Questions</Link>
-                    <Link to="/login">Sign In</Link>
+                    <Link onClick={this.handleClick} to="/apply">Apply Now</Link>
+                    <Link onClick={this.handleClick} to="/about">About Us</Link>
+                    <Link onClick={this.handleClick} to="/contact">Contact Us</Link>
+                    <Link onClick={this.handleClick} to="/faq">Questions</Link>
+                    <Link onClick={this.handleClick} to="/login">Sign In</Link>
                 </div>
             </nav>
        )
