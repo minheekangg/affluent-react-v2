@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "6868a14639ae5e4763a5",
-    "url": "/affluent-react-v2/static/css/main.0e3d435c.chunk.css"
+    "revision": "2ab9fc7c7a4ac02241e3",
+    "url": "/affluent-react-v2/static/css/main.5618ea05.chunk.css"
   },
   {
-    "revision": "6868a14639ae5e4763a5",
-    "url": "/affluent-react-v2/static/js/main.08aa2ae9.chunk.js"
+    "revision": "2ab9fc7c7a4ac02241e3",
+    "url": "/affluent-react-v2/static/js/main.55f19893.chunk.js"
   },
   {
     "revision": "e72bb7de9d0f83c2d788",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/affluent-react-v2/static/media/shark.f98ceefc.png"
   },
   {
-    "revision": "b94f492834393ca6783c28e5223857e4",
+    "revision": "1849c8b7e2a1e7e45f6e8161dc4688c1",
     "url": "/affluent-react-v2/index.html"
   }
 ];
