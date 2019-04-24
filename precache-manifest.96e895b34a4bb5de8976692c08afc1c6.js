@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "9fb185ed7d6b14984247",
-    "url": "/affluent-react-v2/static/css/main.5618ea05.chunk.css"
+    "revision": "36e22620494954c878aa",
+    "url": "/affluent-react-v2/static/css/main.cae6c13a.chunk.css"
   },
   {
-    "revision": "9fb185ed7d6b14984247",
-    "url": "/affluent-react-v2/static/js/main.964a61ba.chunk.js"
+    "revision": "36e22620494954c878aa",
+    "url": "/affluent-react-v2/static/js/main.82d9215f.chunk.js"
   },
   {
     "revision": "e72bb7de9d0f83c2d788",
     "url": "/affluent-react-v2/static/js/runtime~main.4090ec7c.js"
   },
   {
-    "revision": "69650af097148adabaee",
+    "revision": "30fa0ee492b15fb16ac1",
     "url": "/affluent-react-v2/static/css/2.0450462f.chunk.css"
   },
   {
-    "revision": "69650af097148adabaee",
-    "url": "/affluent-react-v2/static/js/2.2d328e47.chunk.js"
+    "revision": "30fa0ee492b15fb16ac1",
+    "url": "/affluent-react-v2/static/js/2.32b5296a.chunk.js"
   },
   {
     "revision": "18aa054e0adf08f16dd647c58421e07d",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/affluent-react-v2/static/media/shark.f98ceefc.png"
   },
   {
-    "revision": "e983c696823e6042dc6a8072e968ec3c",
+    "revision": "5c4f0bb7c299a1978528b9d7293c7073",
     "url": "/affluent-react-v2/index.html"
   }
 ];
