@@ -11,17 +11,22 @@ class Steps extends React.Component{
     state = {
         step: 1
     }
+
+    tick() {
+        const { step } = this.state;
+        this.setState({ step: step === 3 ? 1 : step + 1 })
+    }
+
+    componentDidMount() {
+        this.interval = setInterval(() => this.tick(), 2000);
+    }
+
+    componentWillUnmount() {
+        clearInterval(this.interval);
+    }
+
     render(){
-        setTimeout(() => {
-            if (this.state.step === 3) {
-                this.setState({ step: 1 })
-            } else {
-                this.setState({ step: this.state.step+1 })
-            }
-          ;
-        }, 2000);
-
-
+        
         return (<div id="step-container">
             <div id="steps">
                 <img src={this.state.step === 1 ? step1_active : step1 } alt="step1"/>
